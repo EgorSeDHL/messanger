@@ -1,0 +1,34 @@
+C:\Users\egork\source\repos\6 практос\bin\Debug\net6.0-windows\6 практос.exe
+C:\Users\egork\source\repos\6 практос\bin\Debug\net6.0-windows\6 практос.deps.json
+C:\Users\egork\source\repos\6 практос\bin\Debug\net6.0-windows\6 практос.runtimeconfig.json
+C:\Users\egork\source\repos\6 практос\bin\Debug\net6.0-windows\6 практос.dll
+C:\Users\egork\source\repos\6 практос\bin\Debug\net6.0-windows\6 практос.pdb
+C:\Users\egork\source\repos\6 практос\obj\Debug\net6.0-windows\6 практос.csproj.AssemblyReference.cache
+C:\Users\egork\source\repos\6 практос\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\egork\source\repos\6 практос\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\egork\source\repos\6 практос\obj\Debug\net6.0-windows\6 практос_MarkupCompile.cache
+C:\Users\egork\source\repos\6 практос\obj\Debug\net6.0-windows\6 практос_MarkupCompile.lref
+C:\Users\egork\source\repos\6 практос\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\egork\source\repos\6 практос\obj\Debug\net6.0-windows\6 практос.g.resources
+C:\Users\egork\source\repos\6 практос\obj\Debug\net6.0-windows\6 практос.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\egork\source\repos\6 практос\obj\Debug\net6.0-windows\6 практос.AssemblyInfoInputs.cache
+C:\Users\egork\source\repos\6 практос\obj\Debug\net6.0-windows\6 практос.AssemblyInfo.cs
+C:\Users\egork\source\repos\6 практос\obj\Debug\net6.0-windows\6 практос.csproj.CoreCompileInputs.cache
+C:\Users\egork\source\repos\6 практос\obj\Debug\net6.0-windows\6 практос.dll
+C:\Users\egork\source\repos\6 практос\obj\Debug\net6.0-windows\refint\6 практос.dll
+C:\Users\egork\source\repos\6 практос\obj\Debug\net6.0-windows\6 практос.pdb
+C:\Users\egork\source\repos\6 практос\obj\Debug\net6.0-windows\6 практос.genruntimeconfig.cache
+C:\Users\egork\source\repos\6 практос\obj\Debug\net6.0-windows\ref\6 практос.dll
+C:\Users\egork\source\repos\6 практос\obj\Debug\net6.0-windows\registration_window.g.cs
+C:\Users\egork\source\repos\6 практос\obj\Debug\net6.0-windows\registration_window.baml
+C:\Users\egork\source\repos\6 практос\obj\Debug\net6.0-windows\chat_window.g.cs
+C:\Users\egork\source\repos\6 практос\obj\Debug\net6.0-windows\choose_window.g.cs
+C:\Users\egork\source\repos\6 практос\obj\Debug\net6.0-windows\chat_window.baml
+C:\Users\egork\source\repos\6 практос\obj\Debug\net6.0-windows\choose_window.baml
+C:\Users\egork\source\repos\6 практос\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+C:\Users\egork\source\repos\6 практос\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\egork\source\repos\6 практос\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\egork\source\repos\6 практос\obj\Debug\net6.0-windows\App.baml
+C:\Users\egork\source\repos\6 практос\obj\Debug\net6.0-windows\6 практос.csproj.CopyComplete
+C:\Users\egork\source\repos\6 практос\obj\Debug\net6.0-windows\server_window.g.cs
+C:\Users\egork\source\repos\6 практос\obj\Debug\net6.0-windows\server_window.baml

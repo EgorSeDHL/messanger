@@ -1,0 +1,18 @@
+﻿<Window x:Class="_6_практос.choose_window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_6_практос"
+        mc:Ignorable="d"
+        Title="choose_window" MinHeight="400" MaxHeight="400" MinWidth="300" MaxWidth="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="createBtn" Content="Создать чат" HorizontalAlignment="Stretch" Margin="10" VerticalAlignment="Stretch" />
+        <Button x:Name="addBtn" Content="Подключиться к существующему чату" 
+                   Grid.Row="1" HorizontalAlignment="Stretch" Margin="10" VerticalAlignment="Stretch" />
+    </Grid>
+</Window>

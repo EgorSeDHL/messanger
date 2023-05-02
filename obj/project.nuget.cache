@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "LC5tHwa/6ySTuso+Jqly9qaaP+6P9ipJjuNUanw3H4XaESq4U6pcIJ+ONEHOtqT0RW5u2+qitXUtSYb8sqJ+vA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\egork\\source\\repos\\6 практос\\6 практос.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\egork\\.nuget\\packages\\materialdesigncolors\\2.1.2\\materialdesigncolors.2.1.2.nupkg.sha512",
+    "C:\\Users\\egork\\.nuget\\packages\\materialdesignthemes\\4.8.0\\materialdesignthemes.4.8.0.nupkg.sha512",
+    "C:\\Users\\egork\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
+  ],
+  "logs": []
+}
