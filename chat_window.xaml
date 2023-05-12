@@ -13,10 +13,12 @@
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="283*"/>
-            <RowDefinition Height="101*"/>
+            <RowDefinition Height="49*"/>
+            <RowDefinition Height="52*"/>
         </Grid.RowDefinitions>
-        <Button Grid.Column="1" Content="Отправить" HorizontalAlignment="Stretch" Grid.Row="1" VerticalAlignment="Stretch" Click="Button_Click" />
-        <TextBox Name="Message" Grid.Row="1" TextWrapping="Wrap" Text="" FontSize="25" Margin="0"/>
+        <Button  Grid.Column="1" Content="Отправить" Grid.Row="2" Click="Button_Click" VerticalAlignment="Center" />
+        <Button x:Name="exit_btn" Grid.Column="1" Content="Выйти" Grid.Row="1"  VerticalAlignment="Top" Margin="0,5,0,0" Click="exit_btn_Click" />
+        <TextBox Name="Message" TextWrapping="Wrap" Text="" FontSize="25" Margin="0,283,0,0" Grid.RowSpan="3"/>
         <ListBox x:Name="ListBox" d:ItemsSource="{d:SampleData ItemCount=5}" Grid.ColumnSpan="2" Grid.Row="0"/>
     </Grid>
 </Window>

@@ -11,6 +11,7 @@ using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
+using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
@@ -27,7 +28,8 @@ namespace _6_практос
         {
             InitializeComponent();
             server = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-            server.Connect("26.161.234.109", 8888);
+            server.Connect(reg.ip, 8888);
+            SendMessage("/u" + reg.name);
             ReceiveMessage();
         }
 
@@ -44,14 +46,40 @@ namespace _6_практос
         }
         private async Task SendMessage(string message)
         {
-            byte[] bytes = Encoding.UTF8.GetBytes(message);
+            byte[] bytes = Encoding.UTF8.GetBytes(" USERNAME: " + reg.name + message);
             await server.SendAsync(bytes, SocketFlags.None);
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            SendMessage(Message.Text);
-            Message.Text = "";
+            if (Message.Text == "/disconnect")
+            {
+                SendMessage(reg.name + "/d");
+
+                this.Close();
+                server.Close();
+                Message.Text = null;
+                reg.name = "";
+                reg.Show();
+
+            }
+            else
+            {
+                SendMessage(Message.Text);
+                Message.Text = "";
+
+            }
+        }
+
+        private void exit_btn_Click(object sender, RoutedEventArgs e)
+        {
+            SendMessage(reg.name + "/d");
+            this.Close();
+            server.Close();
+            Message.Text = null;
+            reg.name = "";
+            reg.Show();
+
         }
     }
 }

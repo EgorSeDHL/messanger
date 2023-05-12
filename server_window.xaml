@@ -8,16 +8,22 @@
         Title="server_window" Height="450" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="117*"/>
-            <ColumnDefinition Width="43*"/>
+            <ColumnDefinition Width="134*"/>
+            <ColumnDefinition Width="451*"/>
+            <ColumnDefinition Width="215*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="192*"/>
-            <RowDefinition Height="25*"/>
+            <RowDefinition Height="53*"/>
+            <RowDefinition Height="331*"/>
+            <RowDefinition Height="50*"/>
         </Grid.RowDefinitions>
-        <ListBox x:Name="list_box" d:ItemsSource="{d:SampleData ItemCount=5}" Height="NaN" Margin="0,0,0,10" Grid.ColumnSpan="2" SelectionChanged="list_box_SelectionChanged"/>
-        <TextBox x:Name="text_box" HorizontalAlignment="Stretch" Margin="0" Grid.Row="1" TextWrapping="Wrap"  VerticalAlignment="Stretch" />
-        <Button x:Name="send_nudes" Grid.Column="1" Content="Отправить" HorizontalAlignment="Stretch" Margin="10" Grid.Row="1" VerticalAlignment="Stretch" Click="send_nudes_Click" />
+        <ListBox x:Name="list_box" d:ItemsSource="{d:SampleData ItemCount=5}" Height="NaN" Margin="10,0,10,10" SelectionChanged="list_box_SelectionChanged" Grid.RowSpan="2" Grid.Column="1"/>
+        <TextBox x:Name="text_box" Margin="0,331,0,0" Grid.Row="1" TextWrapping="Wrap" Grid.RowSpan="2" Grid.ColumnSpan="2" />
+        <Button x:Name="send_nudes" Grid.Column="2" Content="Отправить" Margin="10,10,10,8" Grid.Row="2" Click="send_nudes_Click" />
+        <DataGrid x:Name="log_list" Grid.Column="2" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,10,0,0" Grid.Row="1"/>
+        <TextBlock Grid.Column="2" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Лог чата" FontSize="30"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0" TextWrapping="Wrap" FontSize="20" Text="Пользователи" VerticalAlignment="Center"/>
+        <DataGrid x:Name="users_list" Grid.Row="1" d:ItemsSource="{d:SampleData ItemCount=5}"/>
 
     </Grid>
 </Window>

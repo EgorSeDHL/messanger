@@ -30,9 +30,11 @@ namespace _6_практос
 
 
         public string ip;
+        public string name;
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             ip = ipBox.Text;
+            name = loginBX.Text;
                 IPAddress address;
                 bool isIPAddres = false;
             try
